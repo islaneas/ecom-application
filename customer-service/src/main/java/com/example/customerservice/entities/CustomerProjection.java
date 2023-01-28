@@ -6,4 +6,6 @@ import org.springframework.data.rest.core.config.Projection;
 public interface CustomerProjection {
     public Long getId();
     public String getName();
+
+    public String getEmail();
 }
